@@ -1,0 +1,23 @@
+.modal-wrapper {
+  z-index: 955;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: calc(100vw - 40px);
+  position: absolute;
+  top: 0;
+}
+
+.modal-container {
+  margin-top: 10em;
+  animation: fadeIn;
+  background-color: rgba(255, 255, 255, 0.6);
+  animation-duration: 1s;
+}
+
+.modal-background {
+  background-color: white;
+  border-radius: 25px;
+  padding: 1rem;
+}

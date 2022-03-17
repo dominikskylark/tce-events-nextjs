@@ -1,0 +1,27 @@
+{
+  "name": "pusher-experiments",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "feather-icons": "^4.28.0",
+    "iron-session": "^6.0.4",
+    "mongodb": "^4.2.1",
+    "next": "12.0.4",
+    "pusher": "^5.0.0",
+    "pusher-js": "^7.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-feather": "^2.0.9",
+    "swr": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.4"
+  }
+}

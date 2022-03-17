@@ -1,0 +1,78 @@
+.navbar-wrapper {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  z-index: 999;
+  top: 20px;
+  right: 10px;
+  height: calc(100vh - 40px);
+  width: 80px;
+  padding: 0;
+  transition: all 0.4s ease-in;
+  transition-delay: 2s;
+}
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  animation: bounceInRight;
+  animation-duration: 2s;
+  padding: 0;
+  overflow: scroll;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.event-logo {
+  padding: 0.3rem;
+}
+.menu-item {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  font-size: 11px;
+  cursor: pointer;
+}
+.menu-item:first-of-type {
+  margin-top: 1em;
+}
+.navbar-icon {
+  margin: 0;
+  padding: 0;
+}
+.user-photo {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border: 5px solid var(--menu-item);
+  cursor: pointer;
+}
+
+.button-bottom {
+  right: 10px;
+  bottom: 10px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  z-index: 999;
+}

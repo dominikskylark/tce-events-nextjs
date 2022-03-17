@@ -1,0 +1,19 @@
+.input-window {
+  background-color: var(--secondary-color);
+}
+.message {
+  border-radius: 15px;
+  color: white;
+  width: 75%;
+}
+.user-message {
+  background-color: var(--secondary-color);
+  color: var(--primary-button-text-color);
+}
+.helpdesk-message {
+  background-color: var(--primary-button-color);
+}
+
+.message-data {
+  font-size: 0.7rem;
+}
